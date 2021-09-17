@@ -1,0 +1,6 @@
+framework module CometChatProCalls {
+  header "CometChatProCalls-Swift.h"
+
+  export *
+  module CometChatProCalls { export * }
+}
