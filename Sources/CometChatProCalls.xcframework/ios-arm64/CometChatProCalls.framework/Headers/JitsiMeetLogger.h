@@ -1,27 +1,3 @@
-/*
- * Copyright @ 2019-present 8x8, Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-#import <Foundation/Foundation.h>
-
-#import "JitsiMeetBaseLogHandler.h"
-
-
-@interface JitsiMeetLogger : NSObject
-
-+ (void)addHandler:(JitsiMeetBaseLogHandler *)handler;
-+ (void)removeHandler:(JitsiMeetBaseLogHandler *)handler;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:02f4505b486cb6f42f615ef7cf6bc8f94ac7ffe89837db61e50b73452b35b530
+size 835

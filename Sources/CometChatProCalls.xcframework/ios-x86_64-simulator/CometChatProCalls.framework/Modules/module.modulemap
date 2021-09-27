@@ -1,6 +1,3 @@
-framework module CometChatProCalls {
-  header "CometChatProCalls-Swift.h"
-
-  export *
-  module CometChatProCalls { export * }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6283682fae00abe9a26541dbaef7c9fccba4ddc427470285c0081918192a8856
+size 128

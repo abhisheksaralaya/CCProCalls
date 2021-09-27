@@ -1,27 +1,3 @@
-#import <React/RCTBridgeModule.h>
-#import <React/RCTEventEmitter.h>
-
-#import <WebRTC/WebRTC.h>
-// Audio mode
-typedef enum {
-    kAudioModeDefault,
-    kAudioModeAudioCall,
-    kAudioModeVideoCall
-} JitsiMeetAudioMode;
-
-// Events
-static NSString * const kDevicesChanged = @"org.jitsi.meet:features/audio-mode#devices-update";
-
-// Device types (must match JS and Java)
-static NSString * const kDeviceTypeHeadphones = @"HEADPHONES";
-static NSString * const kDeviceTypeBluetooth  = @"BLUETOOTH";
-static NSString * const kDeviceTypeEarpiece   = @"EARPIECE";
-static NSString * const kDeviceTypeSpeaker    = @"SPEAKER";
-static NSString * const kDeviceTypeUnknown    = @"UNKNOWN";
-
-
-@interface AudioMode : RCTEventEmitter<RTCAudioSessionDelegate>
-
-@property(nonatomic, strong) dispatch_queue_t workerQueue;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e4c2c8e624890ef6b9b457f8ac18084c24968b5c27f60e1001b094371d4fbb0
+size 805
